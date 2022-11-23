@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.lubowiecki.PrimaryController">
+   <children>
+      <DatePicker fx:id="date" layoutX="20.0" layoutY="26.0" />
+      <TextArea fx:id="output" layoutX="229.0" layoutY="26.0" prefHeight="358.0" prefWidth="353.0" />
+      <TextField fx:id="name" layoutX="20.0" layoutY="68.0" onAction="#addToOutput" prefHeight="25.0" prefWidth="188.0" />
+   </children>
+</AnchorPane>
